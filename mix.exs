@@ -31,7 +31,7 @@ defmodule Auth0Jwks.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.23", only: :dev, runtime: false},
-      {:httpoison, "~> 1.6"},
+      {:httpoison, "~> 2.2"},
       {:joken, "~> 2.4"},
       {:joken_jwks, "~> 1.4"},
       {:plug_cowboy, "~> 2.2"},
